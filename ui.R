@@ -7,7 +7,7 @@ dataset <- reactive({
 
 fluidPage(
   
-  titlePanel("Shiny ile KeÅŸifsel Veri Analizi UygulamasÄ±"),
+  titlePanel("Veri Görselleştirme"),
   
   fluidRow(
     
