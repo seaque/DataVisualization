@@ -1,3 +1,1 @@
-# Düzce Üniversitesi Bitirme Tezi
-
-### 182113032
+A Shiny app that accepts CSV datasets and create plots using ggplot2.
