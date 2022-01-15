@@ -70,11 +70,6 @@ function(input, output, session) {
         coord_cartesian(xlim = ranges$x, ylim = ranges$y, expand = FALSE)
     }
     
-    if (input$plot == "Piechart") {
-      p <- ggplot(dataset, aes(x=input$column, y=input$column2)) +
-        geom_bar(width = 1, stat = "identity") + coord_polar("y", start=0)
-    }
-    
     if (input$facet_x != '.')
       p <- p + facet_wrap(input$facet_x)
     

@@ -48,7 +48,7 @@ fluidPage(
            selectInput("plot",  
                        "Grafik: ",
                        c("Point", "Histogram", "Bar",
-                         "BoxPlot", "Density", "Violin", "Piechart")),
+                         "BoxPlot", "Density", "Violin")),
            
            uiOutput("slider"),
            
