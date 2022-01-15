@@ -7,7 +7,7 @@ dataset <- reactive({
 
 fluidPage(
   
-  titlePanel("Veri Görselleştirme"),
+  titlePanel("Veri GÃ¶rselleÅŸtirme"),
   
   fluidRow(
     
