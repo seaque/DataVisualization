@@ -1,1 +1,1 @@
-Explatory Data Analysis Utility for CSV files.
+Data Analysis Utility for CSV files.
